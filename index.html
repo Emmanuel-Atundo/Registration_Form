@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title> Membership Registration</title>
+    </head>
+        <body id="bgc">
+            <header class="container">
+            <h1 class="text-center">Membership Registration</h1>
+            <p class="text-muted text-center"><u> Fill in the details below to join us. </u></p>
+            </header>
+
+            <form class="form container">
+                <div class="Main-user-info">
+                    <label for ="firstname" >First Name</label>
+                    <input 
+                    class = "form-control"
+                    type="text"
+                    id="firstname"
+                    name='firstname'
+                    placeholder="enter first name"
+                    />
+
+                    <label for ="lastname">Last Name</label>
+                    <input 
+                    class = "form-control"
+                    type="text"
+                    id="lastname"
+                    name="lastname"
+                    placeholder="enter last name"
+                    />
+                </div>
+                <br/>
+
+                <div class="Main-user-info">
+                    <label for ="email">E-mail</label>
+                    <input 
+                    class = "form-control"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="enter email"
+                    />
+                </div>
+                <br/>
+
+                <div class="Main-user-info">
+                    <label for ="phone-number">Phone Number</label>
+                    <input 
+                    class = "form-control"
+                    type="tel"
+                    id="phone-number"
+                    name="phone-number"
+                    placeholder="enter phone-number"
+                    />
+                </div>
+                <br/>
+
+                <div class="Main-user-info">
+                    <label for ="year-of-birth">Year of Birth</label>
+                    <input 
+                    class = "form-control"
+                    type="date"
+                    id="year-of-birth"
+                    name="year-of-birth"
+                    placeholder="enter yob"
+                    />
+                </div>
+                <br/>
+
+                <div class="Main-user-info">
+                    <div>Gender</div>
+                    <input type="radio" value="male" id="male" name="sex"/>
+                    <label for ="male"> Male </label><br>
+                    <input type="radio" value="female" id="female" name="sex"/>
+                    <label for ="female"> Female </label><br>
+                    <input type="radio"  value="other" id="other" name="sex"/>
+                    <label for ="other"> Prefer no to say </label><br>
+                </div>
+                <br/>
+
+                <div class="Main-user-info">
+                    <label for ="id-number">ID Number</label>
+                    <input 
+                    class = "form-control"
+                    type="number"
+                    id="id-number"
+                    name="id-number"
+                    placeholder="enter id-number"
+                    />
+                </div>
+                <br/>
+
+                <div class="Main-user-info">
+                    <label for ="passion">Passion</label>
+                    <input 
+                    class = "form-control"
+                    type="text"
+                    id="passion"
+                    name="passion"
+                    placeholder="enter your passion"
+                    />
+                </div>
+                <br/>
+
+                <div class="Main-user-info">
+                    <label for ="skills">Skills</label>
+                    <input 
+                    class = "form-control"
+                    type="text"
+                    id="skills"
+                    name="skills"
+                    placeholder="enter your skills"
+                    />
+                </div>
+                <br />
+
+                <div class="Main-user-info">
+                    <label for ="experience">Professional Experience</label>
+                    <input
+                    class = "form-control" 
+                    type="experience"
+                    id="experience"
+                    name="experince"
+                    placeholder="enter your experience"
+                    />
+                </div>
+                <br/>
+
+                <div class="Main-user-info">
+                    <p> Level of education <i>(you can mark multiple)</i> </p>
+                    <input type="checkbox" id="edu" name="edu" value="phd"/>
+                    <label for ="education"> PhD </label>
+                        <br>
+                    <input type="checkbox" id="edu" name="edu" value="masters"/>
+                    <label for ="education"> Masters </label>
+                        <br>
+                    <input type="checkbox" id="edu" name="edu" value="degree"/>
+                    <label for ="education"> Degree </label>
+                        <br>
+                    <input type="checkbox" id="edu" name="edu" value="diploma"/>
+                    <label for ="education"> Diploma </label>
+                        <br>
+                    <input type="checkbox" id="edu" name="edu" value="high school"/>
+                    <label for ="education"> High school </label>
+                        <br>
+                    <input type="checkbox" id="edu" name="edu" value="primary"/>
+                    <label for ="education"> Primary school </label>
+                        <br>
+                </div>
+                <br/>
+                
+                <div class="Main-user-info">
+                    <label for ="location"> Location </label>
+                    <select name="location" id="location" class="form-control">
+                    <option class = "nyali" value="nyali">Nyali</option>
+                    <option class="kisauni" value="kisauni">Kisauni</option>
+                    <option class="jomvu" value="jomvu">Jomvu</option>
+                    <option class="changamwe" value="changamwe">Changamwe</option>
+                    <option class="likoni" value="likoni">Likoni</option>
+                    <option class="mvita" value="mvita">Mvita</option>
+                    </select>
+                </div>
+
+                <div class="Main-user-info">
+                <label for ="ward"> Ward </label>
+                </div>
+
+                <div class="buttons">
+                    <input type="submit" value="SUBMIT">
+                    <input type ="reset" value="RESET">
+                </div>
+
+        </body>
+</html>
